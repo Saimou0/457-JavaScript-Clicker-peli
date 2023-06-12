@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>457 JavaScript Clicker</title>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="peli" id="peli">
+            <h1>Clicker peli</h1>
+            <p id="varoitus" class="tyhja"></p>
+
+            <p id="pisteNaytto" class="tyhja"></p>
+            <button id="Clickeri-nappi" onkeydown="estaNappi(event)">Paina</button>
+            
+            <br>
+
+            <button id="pelinLopettaminen">Lopeta peli: 1 miljoona pistettä</button>
+        </div>
+        
+        <br>
+        
+        <div class="paivitykset" id="paivitykset">
+            <h2>Päivitykset</h2>
+            <button id="ostaPaivitys1" class="paivitys">Päivitys 1: 50</button>
+            <button id="ostaPaivitys2" class="paivitys" disabled>Päivitys 2: 500</button>
+            <button id="ostaPaivitys3" class="paivitys" disabled>Päivitys 3: 2500</button>
+            <button id="ostaPaivitys4" class="paivitys" disabled>Päivitys 4: 25000</button>
+            <button id="ostaPaivitys5" class="paivitys" disabled>Päivitys 5: 50000</button>
+        </div>
+        
+        <br>
+        
+        <div class="autoClickerit" id="autoClickerit">
+            <h2>Auto clickerit</h2>
+
+            <p id="clickkejaSekunnissa">Clikkejä sekunnissa: 0</p> <br>
+
+            <p id="pronssiHinta">50</p>
+            <button id="ostaAutoClickerPronssi">Osta bronssi autoclicker</button>
+            
+            <p id="hopeaHinta">100</p>
+            <button id="ostaAutoClickerHopea">Osta hopea autoclicker</button>
+            
+            <p id="kultaHinta">200</p>
+            <button id="ostaAutoClickerKulta">Osta kultainen autoclicker</button>
+
+            <p id="platinaHinta">500</p>
+            <button id="ostaAutoClickerPlatina">Osta platina autoclicker</button>
+        </div>
+        
+        <div class="pelinLoppu" id="pelinLoppu" style="display: none;">
+            <p id="pelinLoppuKlikkaamisMaara"></p> <br>
+            <p id="pelinLoppuAutoClickerMaara"></p>
+        </div>
+        
+        
+    </div>
+
+    <script src="logiikka.js"></script>
+</body>
+</html>
