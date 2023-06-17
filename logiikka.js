@@ -122,7 +122,7 @@ function ostaAutoClickeriPronssi() {
         ostetutAutoClickerit++;
 
         document.getElementById("pronssiHinta").innerHTML = pronssiHinta.toFixed(0);
-        document.getElementById("clickkejaSekunnissa").innerHTML = "Clikkejä sekunnissa: " + autoClikerit;
+        document.getElementById("clickkejaSekunnissa").innerHTML = "Viljan jyviä sekunnissa: " + autoClikerit;
 
     }
 }
@@ -139,7 +139,7 @@ function ostaAutoClickeriHopea() {
         hopeaKerroin = Math.ceil(hopeaKerroin * 1.1);
 
         document.getElementById("hopeaHinta").innerHTML = hopeaHinta.toFixed(0);
-        document.getElementById("clickkejaSekunnissa").innerHTML = "Clikkejä sekunnissa: " + autoClikerit;
+        document.getElementById("clickkejaSekunnissa").innerHTML = "Viljan jyviä sekunnissa: " + autoClikerit;
 
         ostetutAutoClickerit++;
 
@@ -161,7 +161,7 @@ function ostaAutoClickeriKulta() {
         kultaKerroin = Math.ceil(kultaKerroin * 1.08);
 
         document.getElementById("kultaHinta").innerHTML = kultaHinta.toFixed(0);
-        document.getElementById("clickkejaSekunnissa").innerHTML = "Clikkejä sekunnissa: " + autoClikerit;
+        document.getElementById("clickkejaSekunnissa").innerHTML = "Viljan jyviä sekunnissa: " + autoClikerit;
         
         ostetutAutoClickerit++;
 
@@ -181,7 +181,7 @@ function ostaAutoClickeriPlatina() {
         platinaKerroin = Math.ceil(platinaKerroin * 1.08);
 
         document.getElementById("platinaHinta").innerHTML = platinaHinta.toFixed(0);
-        document.getElementById("clickkejaSekunnissa").innerHTML = "Clikkejä sekunnissa: " + autoClikerit;
+        document.getElementById("clickkejaSekunnissa").innerHTML = "Viljan jyviä sekunnissa: " + autoClikerit;
 
         ostetutAutoClickerit++;
 

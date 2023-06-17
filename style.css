@@ -36,6 +36,22 @@ button {
     cursor: pointer;
 }
 
+/* Clicker nappi */
+#Clickeri-nappi {
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid black;
+    background: white;
+    transition: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#Clickeri-nappi img{
+    width: 300px;
+    height: 300px;
+}
+
 /* Päivitykset */
 .paivitys {
     background-color: #00ff00;
